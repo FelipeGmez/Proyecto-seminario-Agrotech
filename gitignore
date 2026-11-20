@@ -1,0 +1,22 @@
+# Claves y credenciales: nunca van al repositorio
+secret_key.txt
+api_key_nodos.txt
+credenciales_iniciales.txt
+.env
+
+# Base de datos con las mediciones reales
+datos.db
+*.db
+*.db-journal
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Copias de seguridad y archivos del sistema
+*.bak
+*.zip
+.DS_Store
+Thumbs.db
